@@ -3,10 +3,74 @@ html, body, #root, .App {
     padding: 0;
     width: 100%;
     height: 100%;
-  }
+}
+
 .App-header {
-    height: 14vh;
+    height: 13vh;
     width: 100%;
     background-color: #1d76db;
     text-align: center;
-  }
+}
+
+.Main-header {
+    height: 70%;
+    display: flex;
+    background-color: #fffdf9; 
+    justify-content: space-between;
+}
+
+.Search-bar {
+    flex-basis: 20%;
+    padding: 15px;
+}
+
+.Search-bar input {
+    padding: 8px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+}
+
+.Search-bar {
+    min-width: 250px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo {
+    max-width: 250px;
+    min-width: 250px;
+    padding: 15px;
+}
+.Logo img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    
+}
+
+
+.Nav-bar {
+    height: 30%;
+    background-color: #1B4C8C;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Nav-links a, .Social-signin a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.Content-area {
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+    min-height: 500px;
+}

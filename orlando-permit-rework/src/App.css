@@ -65,3 +65,12 @@ html, body, #root, .App {
     text-decoration: none;
     color: #333;
 }
+
+
+
+.Content-area {
+    margin-top: 20px;
+    padding: 20px;
+    width: auto;
+    min-height: 500px;
+}

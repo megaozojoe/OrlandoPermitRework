@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
+import PropTypes from 'prop-types'
 
-function PermitData({searchQuery}
-) {
+function PermitData({searchQuery}) {
 const [permits, setPermits] = useState([]);
 const [displayLimit, setDisplayLimit] = useState(10);
 
@@ -39,6 +39,10 @@ return (
     )}
     </div>
 );
+}
+
+PermitData.propTypes = {
+    searchQuery : PropTypes.node,
 }
 
 export default PermitData;

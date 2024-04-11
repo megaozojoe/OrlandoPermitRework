@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import './App.css';
-import PermitData from './PermitData';
+import { useState } from 'react'
+import './App.css'
+import PermitData from './PermitData.jsx'
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <div className="Main-header">
           <div className="Logo">
-            <img src={`${process.env.PUBLIC_URL}/images/Orlando-Logo.png`} alt="Logo" />
+            <img src="./images/Orlando-Logo.png" alt="Logo" />
           </div>
           
           <div className="Search-bar">
@@ -30,9 +30,9 @@ function App() {
             <a href="/catalogue">Catalogue</a>
           </div>
 
-          <div className="Social-signin">
+          <div className="Social-signing">
             <a href="/social">Social</a>
-            <a href="/signin">Sign In</a>
+            <a href="/signing">Sign In</a>
           </div>
         </nav>
       </header>
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

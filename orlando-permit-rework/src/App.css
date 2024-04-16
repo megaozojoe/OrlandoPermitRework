@@ -3,6 +3,7 @@ html, body, #root, .App {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .App-header {
@@ -13,16 +14,23 @@ html, body, #root, .App {
 }
 
 .Main-header {
-    height: 70%;
+    height: 60%;
     display: flex;
     background-color: #fffdf9; 
     justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
 }
 
-.Search-bar {
-    flex-basis: 20%;
-    padding: 15px;
+.Logo {
+    max-width: 250px;
+    min-width: 250px;
+}
+
+.Logo img {
+    max-width: 100%;    
+    width: auto;
+    height: auto;
+    
 }
 
 .Search-bar input {
@@ -35,23 +43,11 @@ html, body, #root, .App {
 
 .Search-bar {
     min-width: 250px;
-    max-width: 350px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.Logo {
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 325px;
+    height: 20%;
+    flex-basis: 20%;
     padding: 15px;
 }
-.Logo img {
-    max-width: 100%;    
-    width: auto;
-    height: auto;
-    
-}
-
 
 .Nav-bar {
     height: 30%;
@@ -62,28 +58,23 @@ html, body, #root, .App {
     text-align: center;
 }
 
+.Nav-links, .Social-signing {
+    justify-content: center;
+    align-content: center;
+}
 
-
-.Nav-links a, .Social-signin a {
-    margin-right: 15px;
+.Nav-links a, .Social-signing a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
+    font-size: 14px;
     text-align: center;
     padding: 10px;
-    padding-bottom: 17px;
 }
 
 .Nav-links a:hover{
     background-color: #4085ce;
     color: black;
 }
-
-.Nav-links a.active{
-    background-color: #04AA6D;
-    color: white;
-}
-
-
 
 .Content-area {
     margin-top: 20px;

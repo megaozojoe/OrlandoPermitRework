@@ -1,0 +1,10 @@
+.Footer-Div {
+    background-color: #ccc;
+    padding: 5%;
+    display: block;
+    font-family: sans-serif;
+}
+
+.footer-title {
+    font-weight: strong;
+}

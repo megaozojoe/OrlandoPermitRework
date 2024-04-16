@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import PermitData from './PermitData.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -39,8 +40,9 @@ function App() {
       <main className="Content-area">
         <PermitData searchQuery={searchQuery} />
       </main>
-
+      <Footer/>
     </div>
+
   );
 }
 

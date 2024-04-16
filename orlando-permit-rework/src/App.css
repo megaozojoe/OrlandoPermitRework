@@ -3,6 +3,7 @@ html, body, #root, .App {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family: sans-serif;
 }
 
 .App-header {
@@ -52,6 +53,7 @@ html, body, #root, .App {
     
 }
 
+/*Css for Nav bar components*/
 
 .Nav-bar {
     height: 30%;
@@ -70,7 +72,7 @@ html, body, #root, .App {
     color: #333;
     text-align: center;
     padding: 10px;
-    padding-bottom: 17px;
+    padding-bottom: 16px;
 }
 
 .Nav-links a:hover{

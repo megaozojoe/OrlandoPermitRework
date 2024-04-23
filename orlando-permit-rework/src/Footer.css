@@ -1,4 +1,4 @@
-.Footer-Div {
+.Footer-div {
     background-color: #b2b2b26a;
     padding: 5%;
     display: block;
@@ -15,4 +15,16 @@
 .footer-title {
     font-weight: strong;
     display: block;
+}
+
+.footer-flex div {
+    width: 33%;
+}
+
+.footer-flex div p {
+    margin: 5px;
+}
+.footer-flex div p a {
+    
+    text-decoration: none;
 }

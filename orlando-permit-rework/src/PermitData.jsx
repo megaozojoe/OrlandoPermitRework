@@ -26,17 +26,32 @@ const filteredPermits = searchQuery
 
 return (
     <div className="Content-area">
-    {filteredPermits.slice(0, displayLimit).map((permit, index) => (
-        <div key={index} className="Permit-box">
-        <p>Permit Number: {permit.permit_number}</p>
-        </div>
+        <table className="Permit-table">
+            <tr>
+                <th>Permit Number</th>
+                <th>Application Type</th>
+                <th>Property Owner</th>
+                <th>Contractor</th>
+                <th>Contractor Phone</th>
+            </tr>
+            {filteredPermits.slice(0, displayLimit).map((permit, index) => (
+        <tr key={index} className="Permit-box">
+            <td>{permit.permit_number}</td>
+            <td>{permit.application_type}</td>
+            <td>{permit.property_owner_name}</td>
+            <td>{permit.contractor}</td>
+            <td>{permit.contractor_phone_number}</td>
+        </tr>
     ))}
-    {displayLimit < filteredPermits.length && (
+        </table>
+        <div className="Permit-table-buttons">
+        {displayLimit < filteredPermits.length && (
         <button onClick={() => setDisplayLimit(displayLimit + 10)}>Load More</button>
     )}
     {displayLimit < filteredPermits.length && (
         <button onClick={() => setDisplayLimit(filteredPermits.length)}>Load All</button>
     )}
+        </div>    
     </div>
 );
 }

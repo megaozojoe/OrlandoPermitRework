@@ -32,7 +32,6 @@ function App() {
           </div>
 
           <div className="Social-signing">
-            <a href="/social">Social</a>
             <a href="/signing">Sign In</a>
           </div>
         </nav>

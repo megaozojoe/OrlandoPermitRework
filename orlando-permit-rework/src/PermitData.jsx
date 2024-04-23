@@ -21,7 +21,7 @@ useEffect(() => {
 
 const filteredPermits = searchQuery
     ? permits.filter(permit =>
-        permit.permit_number && permit.permit_number.toLowerCase().includes(searchQuery))
+        permit.permit_number && permit.permit_number.toLowerCase().includes(searchQuery.toLowerCase()))
     : permits;
 
 return (

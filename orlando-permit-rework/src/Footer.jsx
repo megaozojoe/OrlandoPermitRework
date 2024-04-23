@@ -13,14 +13,14 @@ function Footer(){
                             Orlando, Florida 32801<br></br>
                             407.246.2121</p>
                         <p>Monday&nbsp;-&nbsp;Friday&nbsp;&nbsp;8 a.m. to 5 p.m.<br></br></p>
-                        <p><a href="https://www.orlando.gov/Directory/City-Buildings-Centers/City-Hall/Observed-Holidays" target="_self">Observed holidays</a></p>
+                        <p><a href="https://www.orlando.gov/Directory/City-Buildings-Centers/City-Hall/Observed-Holidays" target="_blank">Observed holidays</a></p>
                         <p><a href="https://gis.orlando.gov/orlandoinformationlocator/" target="_blank" aria-describedby="new-window-0" className="opens-in-new-tab">Information Locator</a></p>
-                        <p><a href="https://www.orlando.gov/Our-Government/News-and-Information" target="_self">News and Information</a></p>
+                        <p><a href="https://www.orlando.gov/Our-Government/News-and-Information" target="_blank">News and Information</a></p>
                     </div>
                     <div>
                         <h3 className="footer-contact">Contact Us</h3>
-                        <p><a href="https://www.orlando.gov/Our-Government/Contact-Us">City Directory</a></p>
-                        <p><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter">Subscribe to City News</a></p>
+                        <p><a href="https://www.orlando.gov/Our-Government/Contact-Us" target="_blank">City Directory</a></p>
+                        <p><a href="https://www.orlando.gov/Our-Government/Get-Involved/City-Newsletter" target="_blank">Subscribe to City News</a></p>
                         <p><a href="http://www.downtownorlando.com" target="_blank">Downtownorlando.com</a></p>
                     </div>
                     <div>

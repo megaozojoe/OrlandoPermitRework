@@ -27,8 +27,8 @@ function App() {
 
         <nav className="Nav-bar">
           <div className="Nav-links">
-            <a href="https://data.cityoforlando.net/">Home</a>
-            <a href="https://data.cityoforlando.net/browse">Catalog</a>
+            <a href="https://data.cityoforlando.net/" target="_blank">Home</a>
+            <a href="https://data.cityoforlando.net/browse" target="_blank">Catalog</a>
           </div>
 
           <div className="Social-signing">
